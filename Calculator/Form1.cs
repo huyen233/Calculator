@@ -16,5 +16,12 @@ namespace Calculator
         {
             InitializeComponent();
         }
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            double a = double.Parse(textBox1.Text);
+            double b = double.Parse(textBox2.Text);
+            double c = a + b;
+            txtkq.Text = c.ToString();
+        }
     }
 }
