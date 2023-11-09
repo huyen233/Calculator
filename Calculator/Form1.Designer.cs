@@ -38,7 +38,11 @@ namespace Calculator
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.txtkq = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
             this.bttru = new System.Windows.Forms.Button();
+=======
+            this.btTru = new System.Windows.Forms.Button();
+>>>>>>> 66ea9f744e1e4b980bc5239545bd76c18b2f8409
             this.SuspendLayout();
             // 
             // label1
@@ -105,6 +109,7 @@ namespace Calculator
             this.txtkq.Size = new System.Drawing.Size(302, 22);
             this.txtkq.TabIndex = 9;
             // 
+<<<<<<< HEAD
             // bttru
             // 
             this.bttru.AccessibleName = "bttru";
@@ -115,13 +120,28 @@ namespace Calculator
             this.bttru.Text = "Trừ";
             this.bttru.UseVisualStyleBackColor = true;
             this.bttru.Click += new System.EventHandler(this.bttru_Click);
+=======
+            // btTru
+            // 
+            this.btTru.Location = new System.Drawing.Point(290, 300);
+            this.btTru.Name = "btTru";
+            this.btTru.Size = new System.Drawing.Size(75, 23);
+            this.btTru.TabIndex = 10;
+            this.btTru.Text = "Trừ";
+            this.btTru.UseVisualStyleBackColor = true;
+            this.btTru.Click += new System.EventHandler(this.btTru_Click);
+>>>>>>> 66ea9f744e1e4b980bc5239545bd76c18b2f8409
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
             this.Controls.Add(this.bttru);
+=======
+            this.Controls.Add(this.btTru);
+>>>>>>> 66ea9f744e1e4b980bc5239545bd76c18b2f8409
             this.Controls.Add(this.txtkq);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
@@ -145,7 +165,11 @@ namespace Calculator
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtkq;
+<<<<<<< HEAD
         private System.Windows.Forms.Button bttru;
+=======
+        private System.Windows.Forms.Button btTru;
+>>>>>>> 66ea9f744e1e4b980bc5239545bd76c18b2f8409
     }
 }
 

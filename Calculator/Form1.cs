@@ -24,7 +24,11 @@ namespace Calculator
             txtkq.Text = c.ToString();
         }
 
+<<<<<<< HEAD
         private void bttru_Click(object sender, EventArgs e)
+=======
+        private void btTru_Click(object sender, EventArgs e)
+>>>>>>> 66ea9f744e1e4b980bc5239545bd76c18b2f8409
         {
             double a = double.Parse(textBox1.Text);
             double b = double.Parse(textBox2.Text);
