@@ -107,7 +107,7 @@ namespace Calculator
             // 
             // btTru
             // 
-            this.btTru.ForeColor = System.Drawing.Color.Maroon;
+            this.btTru.ForeColor = System.Drawing.Color.Black;
             this.btTru.Location = new System.Drawing.Point(290, 300);
             this.btTru.Name = "btTru";
             this.btTru.Size = new System.Drawing.Size(75, 23);
